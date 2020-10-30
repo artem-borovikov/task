@@ -14,9 +14,7 @@ async function boostrap() {
     await Contract.sync()
     await Block.sync()
 
-    app.get('/', (req, res) => {
-        res.send('Hello World!')
-    })
+    // сюда нужно дописать методы
 
     app.listen(port, () => {
         console.log(`Example app listening at http://localhost:${port}`)

@@ -7,6 +7,9 @@ const Block = sequelize.define('Block', {
         primaryKey: true
 
     },
+    blockDur: {
+        type: DataTypes.INTEGER
+    },
     cnlID: {
         type: DataTypes.INTEGER
     },

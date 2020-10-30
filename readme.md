@@ -37,3 +37,5 @@
 ```
 
 4. Сделать pull-request тестового задания. Инструкция: https://www.youtube.com/watch?v=SUnJ8bNCnCg
+
+Удачи! Если что-то не понятно, пишите в телегу @ArtemBorovikov

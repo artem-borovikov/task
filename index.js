@@ -15,6 +15,7 @@ async function boostrap() {
     await Block.sync()
 
     // сюда нужно дописать методы
+    // можете менять структуру проекта по своему усмотрению
 
     app.listen(port, () => {
         console.log(`Example app listening at http://localhost:${port}`)

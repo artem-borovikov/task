@@ -14,7 +14,7 @@ async function boostrap() {
     await Contract.sync()
     await Block.sync()
 
-    // сюда нужно дописать методы
+    // сюда можно дописать методы
     // можете менять структуру проекта по своему усмотрению
 
     app.listen(port, () => {

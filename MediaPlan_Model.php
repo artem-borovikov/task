@@ -1,9 +1,8 @@
-<?php
-
-
 namespace app\models;
 
 use yii\db\ActiveRecord;
+
+<?php
 
 class Mediaplan extends ActiveRecord
 {

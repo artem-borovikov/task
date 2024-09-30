@@ -5,19 +5,19 @@ $message = 'привет';
 $example = function () {
     var_dump($message);
 };
-$example();
+$example(); // ?
 
 $example = function () use ($message) {
     var_dump($message);
 };
-$example();
+$example(); // ?
 
 $message = 'мир';
-$example();
+$example(); // ?
 
 $message = 'привет';
 
 $example = function () use (&$message) {
     var_dump($message);
 };
-$example();
+$example(); // ?

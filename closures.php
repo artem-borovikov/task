@@ -21,3 +21,6 @@ $example = function () use (&$message) {
     var_dump($message);
 };
 $example(); // ?
+
+$message = 'мир';
+echo $example(); // ?
